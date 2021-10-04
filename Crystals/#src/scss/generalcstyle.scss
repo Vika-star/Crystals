@@ -54,11 +54,5 @@ line-height: calc(36 / 26 *100%);
 
 }
 .title{
-font-family: 'Hind Madurai';
-font-style: normal;
-font-weight: 600;
-font-size: 44.2px;
-@include tablet{
-    font-size: 40px;
-}
+
 }

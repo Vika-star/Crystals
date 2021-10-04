@@ -379,41 +379,7 @@
         justify-content: space-between;
         position: relative;
     }
-    // &__link {
-    //     position: relative;
-    //     display: flex;
-    //     flex-direction: column;
-    //     text-align: center;
-    //     justify-content: center;
-        
-    //     font-family: 'BasisGrotesquePro';
-    //     font-weight: 400;
-    //     font-size: 16px;
-    //     line-height: 100%;
-    //     /* identical to box height, or 100% */
 
-    //     text-align: center;
-    //     letter-spacing: 1px;
-    //     text-transform: uppercase;
-        
-    //     img{
-    //         position: relative;
-    //         padding: 0 0 18px 0;              
-    //     }
-    // }
-    // &__background{
-    //     position: absolute;
-    //     background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%), #FACCBF;
-    //     width: 658.79px;
-    //     height: 652px;
-    //     top: -284px;
-    //     left: 0px;
-    //     z-index: -1;
-    // }
-    // &__text{
-    //     @extend .block-intention__link;
-    // }
-    
     
     &__list {
         display: flex;
@@ -457,7 +423,55 @@
         letter-spacing: 1px;
         text-transform: uppercase;
     }
+}
 
+.gifts-gratitude {
+    padding: 130px 0 150px 0;
+    border-bottom: 1px solid #EAC1BF;
+    &__container {
+        flex-wrap: wrap;
+    }
+    &__title {
+        font-weight: 400;
+        font-size: 116px;
+        line-height: 103%;
+        text-align: center;
+        margin: 0 0 102px 0;
+    }
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__column {
+
+    }
+    &__item {
+    }
+}
+.gift-gratitude {
+
+    &__image {
+        margin: 0 0 12px 0;
+    }
+    &__title {
+        font-weight: normal;
+        font-size: 46px;
+        line-height: 104%;
+        margin: 0 0 13px 0;
+    }
+    &__text {
+        font-family: 'BasisGrotesquePro';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
+        span::before{
+            content: "\0024";
+            color: #111111;
+            margin: 0;
+        }
+
+    }
 }
 
 // .block-intention {
@@ -469,7 +483,7 @@
     
 //     &__container {
 //         display: flex;
-//         flex-wrap: wrap;
+//         
 //         // justify-content: center;
 //     }
 //     &__items {
