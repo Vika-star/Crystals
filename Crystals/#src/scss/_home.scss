@@ -450,7 +450,6 @@
     }
 }
 .gift-gratitude {
-
     &__image {
         margin: 0 0 12px 0;
     }
@@ -470,9 +469,52 @@
             color: #111111;
             margin: 0;
         }
-
     }
 }
+
+.join-club {
+    padding: 63px 0 63px 0;
+    &__container {
+        display: flex;
+    }
+    &__content {
+        margin: 0 60px 0 20px;
+    }
+    &__title {
+        max-width: 280px;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 117%;
+        margin: 0 0 24px 0;
+    }
+    &__text {
+        max-width: 249.57px;
+        font-family: 'BasisGrotesquePro';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        margin: 0 0 24px 0;
+    }
+    &__btn {
+    }
+    &__button {
+    }
+    &__album {
+        display: flex;
+        // flex-wrap: wrap;
+    }
+    &__column {
+        // flex-wrap: wrap;
+        margin: 0 24px 0 0;
+        &:last-child{
+            margin: 0;
+        }
+    }
+    &__item {
+    }
+}
+
+
 
 // .block-intention {
 //     padding: 106px 0;
