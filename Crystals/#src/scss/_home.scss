@@ -444,7 +444,6 @@
         justify-content: space-between;
     }
     &__column {
-
     }
     &__item {
     }
@@ -474,6 +473,8 @@
 
 .join-club {
     padding: 63px 0 63px 0;
+    background: linear-gradient(270deg, #FFFFFF 45.52%, rgba(255, 255, 255, 0.58) 100%), #EAC1BF;
+    border-bottom: 1px solid #EAC1BF;
     &__container {
         display: flex;
     }
@@ -501,11 +502,11 @@
     }
     &__album {
         display: flex;
-        // flex-wrap: wrap;
+        flex-wrap: wrap;
     }
     &__column {
         // flex-wrap: wrap;
-        margin: 0 24px 0 0;
+        margin: 0 18px 0 0;
         &:last-child{
             margin: 0;
         }
@@ -514,8 +515,64 @@
     }
 }
 
+.block-quote {
+    background-image: url('../img/quote/back.svg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 186px 0 83px 0;
+    &__container {
+        display: block;
+        text-align: center;
+    }
+    &__avatar {
+        margin: 0 0 30px 0;
+        img{
+            border-radius: 50%;
+        }
+    }
+    &__text {
+        font-size: 46px;
+        margin: 0 0 30px 0;
+    }
+    &__author{
+        @extend .subscribe-block__autor;
+        &::after{
+            margin: 12px 0 0 0;
+            display: block;
+            content: url('../img/icon/decorationelem.svg');
+        }
+    }
+}
 
 
+.albums {
+    padding: 71.77px 0 40.73px 0;
+    &__container {
+    }
+    &__links-site {
+        display: flex;
+        margin: 0 0 25.7px 0;
+    }
+    &__link {
+        font-family: 'BasisGrotesquePro';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        &:first-child{
+            margin-right: 3.72px;
+        }
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+    &__item {
+    }
+}
 // .block-intention {
 //     padding: 106px 0;
 //     @include small-tablet{
